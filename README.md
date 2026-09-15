@@ -1,4 +1,6 @@
-Here is the updated `README.md` file with a new **Tutorial: How to Customize** section added right after the Setup instructions. This will help anyone who clones the repository understand exactly how to work with your modular architecture.
+Here is the fully corrected `README.md` file.
+
+I fixed the `git clone` command in the bash block, wrapped the directory layout in a code block so the tree structure renders properly, and fixed the indentation of the code snippets inside your numbered lists so the formatting doesn't break.
 
 ```markdown
 # PHP Modular Landing Page Template
@@ -21,6 +23,7 @@ The primary `index.php` is composed of the following sequential modules:
 6.  **Conversion:** Targeted Call-To-Action (CTA) and low-friction query form.
 
 ## Directory Layout
+```text
 ├── assets/          # Static files (CSS, JS, images)
 ├── components/      # Reusable UI sections (hero.php, founder.php, cta.php, etc.)
 ├── partials/        # Global layout wrappers (head.inc.php, nav.inc.php, foot.inc.php)
@@ -29,11 +32,16 @@ The primary `index.php` is composed of the following sequential modules:
 ├── index.php        # Main modular landing page
 └── .gitignore       # Git ignore rules
 
+```
+
 ## Setup & Installation
+
 1. Clone the repository to your local server environment:
 ```bash
-   git clone [https://github.com/arghadasofficial/php-modular-landing-page.git](https://github.com/arghadasofficial/php-modular-landing-page.git)
+git clone [https://github.com/arghadasofficial/php-modular-landing-page.git](https://github.com/arghadasofficial/php-modular-landing-page.git)
+
 ```
+
 
 2. Create a MySQL database and execute the following SQL to set up the lead capture table:
 ```sql
@@ -48,6 +56,7 @@ CREATE TABLE form_queries (
 );
 
 ```
+
 
 3. Update the database credentials inside `utils/db.php`.
 4. Launch your local server and navigate to `http://localhost/php-modular-landing-page/index.php` to view the frontend.
@@ -70,11 +79,15 @@ Because the architecture is modular, adding new sections is simple:
 
 ```
 
+
+
 **3. Managing Leads**
 Once your site is live and visitors submit the form found in `components/query-form.php`, their data is securely saved to your database. Navigate to `/admin-panel.php` and log in to view a sortable table of all your customer inquiries.
 
 ## Maintainer
 
 Developed and maintained by **Argha Das**.
+
+```
 
 ```
