@@ -1,8 +1,3 @@
-Here is the fully corrected `README.md` file.
-
-I fixed the `git clone` command in the bash block, wrapped the directory layout in a code block so the tree structure renders properly, and fixed the indentation of the code snippets inside your numbered lists so the formatting doesn't break.
-
-```markdown
 # PHP Modular Landing Page Template
 
 A lightweight, high-conversion PHP website architecture designed for rapid deployment of business and corporate landing pages. This project utilizes a strict component-based structure to guide visitors through a trust-building narrative, ending with a built-in lead capture system and administration dashboard.
@@ -79,15 +74,9 @@ Because the architecture is modular, adding new sections is simple:
 
 ```
 
-
-
 **3. Managing Leads**
 Once your site is live and visitors submit the form found in `components/query-form.php`, their data is securely saved to your database. Navigate to `/admin-panel.php` and log in to view a sortable table of all your customer inquiries.
 
 ## Maintainer
 
 Developed and maintained by **Argha Das**.
-
-```
-
-```
