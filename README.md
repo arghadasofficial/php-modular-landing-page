@@ -31,7 +31,7 @@ The primary `index.php` is composed of the following sequential modules:
 
 ## Setup & Installation
 1. Clone the repository to your local server environment:
-   ```bash
+```bash
    git clone [https://github.com/arghadasofficial/php-modular-landing-page.git](https://github.com/arghadasofficial/php-modular-landing-page.git)
 ```
 
