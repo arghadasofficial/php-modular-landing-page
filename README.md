@@ -33,7 +33,6 @@ The primary `index.php` is composed of the following sequential modules:
 1. Clone the repository to your local server environment:
    ```bash
    git clone [https://github.com/arghadasofficial/php-modular-landing-page.git](https://github.com/arghadasofficial/php-modular-landing-page.git)
-
 ```
 
 2. Create a MySQL database and execute the following SQL to set up the lead capture table:
@@ -77,7 +76,5 @@ Once your site is live and visitors submit the form found in `components/query-f
 ## Maintainer
 
 Developed and maintained by **Argha Das**.
-
-```
 
 ```
